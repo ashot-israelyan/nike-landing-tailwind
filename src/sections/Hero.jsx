@@ -23,7 +23,7 @@ const Hero = () => {
           <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>
             The New Arrival
           </span>
-          <br />
+          <br/>
           <span className='text-coral-red inline-block mt-3'>Nike</span> Shoes
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
@@ -31,7 +31,7 @@ const Hero = () => {
           your active life.
         </p>
 
-        <Button label='Shop now' iconUrl={arrowRight} />
+        <Button label='Shop now' iconUrl={arrowRight}/>
 
         <div className='flex justify-start items-start flex-wrap w-full mt-20 gap-16'>
           {statistics.map((stat, index) => (
@@ -45,7 +45,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
+      <div
+        className='relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-hero bg-cover bg-center'>
         <img
           src={bigShoeImg}
           alt='shoe colletion'
